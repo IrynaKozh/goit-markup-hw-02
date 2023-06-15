@@ -1,0 +1,63 @@
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  font-weight: bold;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  /* Header */
+}
+.header {
+}
+.header-naw {
+}
+.header-link {
+}
+.link-studio {
+}
+.header-list {
+}
+.header-item {
+}
+/* Main */
+.page {
+}
+/* Section1 */
+.title {
+}
+.button {
+}
+/* Section2 */
+.page-link {
+}
+.page-item {
+}
+.page-subtitle {
+}
+.page-text {
+}
+/* Section3 */
+.subtitle {
+}
+.img-list {
+}
+.img-item {
+}
+.img {
+}
+/* Section4 */
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+/* Footer */
+.footer {
+}
+.footer-link {
+}
+.footer-studio {
+}
+.footer-text {
+}
