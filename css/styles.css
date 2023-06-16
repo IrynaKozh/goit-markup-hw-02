@@ -5,6 +5,7 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
   color: #2e2f42;
+
   /* Header */
 }
 .header {
@@ -12,12 +13,40 @@ body {
 .header-naw {
 }
 .header-link {
+  width: 44px;
+  height: 21px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
 }
-.link-studio {
+.accent {
+  color: #2e2f42;
 }
 .header-list {
 }
 .header-item {
+}
+.address {
+}
+.address-item {
+}
+.mail {
+}
+.tel {
 }
 /* Main */
 .page {
