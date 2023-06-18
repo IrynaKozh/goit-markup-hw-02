@@ -10,7 +10,6 @@ body {
 :root {
   --primary-font: Roboto, sans-serif;
   --primary-color: #434455;
-  --primary-background: #ffffff;
   --logo-color: #4d5ae5;
   --accent-color: #2e2f42;
   --hover-color: #404bbf;
@@ -23,11 +22,12 @@ body {
 }
 .header-naw {
 }
-.naw-link {
+.link {
+  font-family: Releway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -39,14 +39,14 @@ body {
 .accent {
   color: var(--accent-color);
 }
-.header-list {
+.list {
   list-style: none;
 }
 .header-item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -61,6 +61,9 @@ body {
   color: var(--hover-color);
 }
 .address {
+  font-style: normal;
+}
+.address-list {
   list-style: none;
 }
 .address-item {
@@ -72,32 +75,27 @@ body {
 
   color: var(--primary-color);
 }
-.mail {
+.address-link {
   text-decoration: none;
-  font-style: normal;
   color: var(--primary-color);
 }
-.mail:hover,
-.mail:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--hover-color);
 }
-.tel {
-  text-decoration: none;
-  font-style: normal;
-  color: var(--primary-color);
-}
+
 /* Main */
 .page {
 }
 /* Section1 */
-.section1 {
+.section-one {
   background: var(--accent-color);
 }
 .title {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -105,21 +103,22 @@ body {
   color: var(--white-color);
 }
 .button {
+  font-family: Roboto, sans-serif;
   background: var(--logo-color);
-
+  font-weight: 500;
   color: var(--white-color);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
   background: var(--hover-color);
 }
 /* Section2 */
-.section2 {
-}
-.page-link {
+
+.page-list {
   list-style: none;
 }
 .page-item {
@@ -149,7 +148,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -158,27 +157,34 @@ body {
   color: var(--accent-color);
 }
 .img-list {
+  list-style: none;
 }
 .img-item {
 }
 .img {
 }
 /* Section4 */
-
+.section-four {
+  background-color: var(--footer-color);
+}
 .team-list {
+  list-style: none;
 }
 .team-item {
+  background-color: var(--white-color);
 }
 .team-img {
 }
 /* Footer */
 .footer {
+  background-color: var(--accent-color);
 }
 .footer-link {
+  font-family: Raleway? sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -198,4 +204,45 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--footer-color);
+}
+
+/* Portfolio */
+.button-list {
+  list-style: none;
+}
+.portfolio-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--footer-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--hover-color);
+}
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-link {
+  text-decoration: none;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-color);
+
+  letter-spacing: 0.02em;
 }
