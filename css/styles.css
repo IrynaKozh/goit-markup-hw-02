@@ -79,6 +79,7 @@ body {
 }
 .address-link {
   color: var(--primary-color);
+  letter-spacing: 0.02em;
 }
 .address-link:hover,
 .address-link:focus {
