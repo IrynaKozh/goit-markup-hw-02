@@ -16,25 +16,29 @@ body {
   --white-color: #ffffff;
   --footer-color: #f4f4fd;
 }
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
 /* Header */
 
 .header {
 }
 .header-naw {
 }
-.link {
-  font-family: Releway, sans-serif;
+.logo-link {
+  font-family: "Releway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
 
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 
   color: var(--logo-color);
-
-  text-decoration: none;
 }
 .accent {
   color: var(--accent-color);
@@ -64,7 +68,6 @@ body {
   font-style: normal;
 }
 .address-list {
-  list-style: none;
 }
 .address-item {
   font-weight: 400;
@@ -76,7 +79,6 @@ body {
   color: var(--primary-color);
 }
 .address-link {
-  text-decoration: none;
   color: var(--primary-color);
 }
 .address-link:hover,
@@ -119,7 +121,6 @@ body {
 /* Section2 */
 
 .page-list {
-  list-style: none;
 }
 .page-item {
 }
@@ -157,7 +158,6 @@ body {
   color: var(--accent-color);
 }
 .img-list {
-  list-style: none;
 }
 .img-item {
 }
@@ -168,7 +168,6 @@ body {
   background-color: var(--footer-color);
 }
 .team-list {
-  list-style: none;
 }
 .team-item {
   background-color: var(--white-color);
@@ -180,7 +179,7 @@ body {
   background-color: var(--accent-color);
 }
 .footer-link {
-  font-family: Raleway? sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -190,7 +189,6 @@ body {
   text-transform: uppercase;
 
   color: var(--logo-color);
-  text-decoration: none;
 }
 .footer-studio {
   color: var(--footer-color);
@@ -208,7 +206,6 @@ body {
 
 /* Portfolio */
 .button-list {
-  list-style: none;
 }
 .portfolio-button {
   font-family: Roboto, sans-serif;
@@ -218,6 +215,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--logo-color);
   background-color: var(--footer-color);
+  cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -225,15 +223,13 @@ body {
   background-color: var(--hover-color);
 }
 .portfolio-list {
-  list-style: none;
 }
 .portfolio-link {
-  text-decoration: none;
 }
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -241,7 +237,7 @@ body {
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--primary-color);
 
   letter-spacing: 0.02em;
