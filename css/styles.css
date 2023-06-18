@@ -20,33 +20,20 @@ body {
 /* Header */
 
 .header {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
 }
 .header-naw {
 }
 .naw-link {
-  width: 44px;
-  height: 21px;
-
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--logo-color);
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   text-decoration: none;
 }
 .accent {
@@ -104,11 +91,6 @@ body {
 }
 /* Section1 */
 .section1 {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: var(--accent-color);
 }
 .title {
@@ -123,26 +105,11 @@ body {
   color: var(--white-color);
 }
 .button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 20px;
-  top: 20px;
-
   background: var(--logo-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+
   color: var(--white-color);
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
 }
 .button:hover,
@@ -151,11 +118,6 @@ body {
 }
 /* Section2 */
 .section2 {
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
 }
 .page-link {
   list-style: none;
@@ -218,8 +180,6 @@ body {
   font-size: 18px;
   line-height: 21px;
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
